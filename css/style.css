@@ -23,7 +23,7 @@
   /* background-color:rgba(255, 226, 139,0.7); */
   background-color: rgba(255, 255, 255, 0.7);
   text-align: center;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: bold;
   color: rgb(44, 29, 29);
   letter-spacing: 0.1em;
@@ -68,7 +68,7 @@ top: -100px;
  display:flex;
  position: relative;
 left: 950px;
-top:300px;
+top:80px;
 
 }
 .timer{
