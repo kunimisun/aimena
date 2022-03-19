@@ -115,6 +115,9 @@
 #header:before{
 	background:url("../images/sumahoback-27.png") no-repeat center;
 	background-size:cover;
-	width: 100px;
+	
+}
+.scrolldown1{
+	display:none;
 }
 }
