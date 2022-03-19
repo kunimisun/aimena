@@ -135,7 +135,7 @@
         top:0;
         width:none;
         height: 0vh;/*ナビの高さ*/
-        background:rgba(255,255,255,0.8);/*背景を少し透過させる*/
+        background:rgba(255,255,255,0.8);
         /*動き*/
         transition: all 0.3s;
     }
@@ -143,11 +143,11 @@
         position:fixed;
         z-index: 9999;/*ボタンを最前面に*/
         top:10px;
-        left: 300px;
+        left: 330px;
         cursor: pointer;
         width: 50px;
         height:50px;
-        background:rgba(255,255,255,0.8);/*背景を少し透過させる*/
+        
     }
 
     #g-nav.panelactive #g-nav-list{
