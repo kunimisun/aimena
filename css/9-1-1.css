@@ -111,23 +111,10 @@
 
 
 @media (max-width: 450px) {
-	.scrolldown1{display:none;
-}
-#container{
-	background-image: none;
-	position:relative;
-	top: -300px;
-	
-}
 
-#header{
+#header:before{
 	background:url("../images/sumahoback-27.png") no-repeat center;
 	background-size:cover;
-	height: 90vh;    
-	
-}
-#header:before{
-	display: none;
 	width: 100px;
 }
 }
