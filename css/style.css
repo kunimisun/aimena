@@ -96,6 +96,7 @@ top:80px;
   padding-top: 10px;
   line-height: 180%;
   font-size: 10px;
+  padding:0 45px;
 }
 .contents1 img {
   position: relative;
@@ -109,8 +110,9 @@ top:80px;
 
 .illust img{
   position: relative;
-
-left: 100px;
+width: 60%;
+height: 60%;
+left:80px;
   top: -50px;
 }
 .illust2 img{
@@ -130,8 +132,8 @@ left: 100px;
 
 @media(max-width:450px) {
   .timer{
-    padding-top: 180px;
-    margin-top: 250px; 
+    
+    margin-top: 400px; 
 }
 .timer2{
   margin-top: 540px; 
