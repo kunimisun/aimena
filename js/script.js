@@ -1,4 +1,4 @@
-let num = [10, 10, 10, 10, 10];
+let num = [120, 120, 120, 120, 120];
 let timerid = [NaN, NaN, NaN, NaN, NaN];
 
 
@@ -6,7 +6,7 @@ let timerid = [NaN, NaN, NaN, NaN, NaN];
 function start(n) {
     if (isNaN(timerid[n])) {
         if(num[n]==0){
-            num[n]=10;
+            num[n]=120;
             document.getElementById("suuti" + n).textContent = showtime(num[n]);
         }
         timerid[n] = setInterval(() => {
@@ -28,7 +28,7 @@ function stop(n) {
 function reset(n) {
     clearInterval(timerid[n]);
     timerid[n] = NaN;
-    num[n] = 10;
+    num[n] = 120;
     document.getElementById("suuti" + n).textContent = showtime(num[n]);
 }
 function showtime(i) {
