@@ -2,9 +2,13 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  font-family: 筑紫A丸ゴシック, serif;
-
+  font-family: "M PLUS Rounded 1c";
+  
 }
+@font-face {
+  font-family: '筑紫A丸ゴシック';
+  src: url(font/フォント名.eot);
+  }
 
 
 .back {
@@ -19,7 +23,7 @@
   /* background-color:rgba(255, 226, 139,0.7); */
   background-color: rgba(255, 255, 255, 0.7);
   text-align: center;
-  font-size: 22px;
+  font-size: 17px;
   font-weight: bold;
   color: rgb(44, 29, 29);
   letter-spacing: 0.1em;
@@ -203,6 +207,7 @@ left: 100px;
 }
 .final h1{
   letter-spacing: 0.2em;
+  font-weight: lighter;
 }
 .icon img{
   width: 300px;
@@ -248,7 +253,7 @@ left: 100px;
 
 @media(max-width:450px) {
   .final h1{
-    font-size: 20px;
+    font-size: 15px;
   }
  
   .final h2{
