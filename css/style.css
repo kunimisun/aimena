@@ -151,6 +151,11 @@ font-weight: bold;
 
   font-size: 10px;
 }
+
+
+#figcaption{
+  font-size: 10px;
+}
 }
 .contents1 {
   background-size: cover;
